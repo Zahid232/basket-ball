@@ -73,4 +73,7 @@ button:hover{
         font-style: italic;
 
     }
+    button{
+        margin:1px 3px;
+    }
 }
