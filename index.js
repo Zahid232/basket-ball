@@ -17,10 +17,6 @@ document.getElementById("lll").addEventListener("click",function(){
     startGame=false
     console.log(startGame)
     playGame()
-    
-    
-    
-
 })
     
 function playGame(){
@@ -28,10 +24,10 @@ function playGame(){
     if (startGame===true){
         document.getElementById("hbtn-1").addEventListener("click",function(){
             homeScore++
-            render()
-            
+            render() 
             
         })
+
     } else{
         homeScore=0
         render()
